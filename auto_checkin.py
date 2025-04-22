@@ -43,12 +43,12 @@ class KurobbsClient:
     def get_headers(self) -> Dict[str, str]:
         """获取API请求所需的请求头。"""
         return {
-            "osversion": "Android",
+            "osversion": "h5",
             "devcode": "39BAFA5213054623682C1EE76533416163075BFC",
             "countrycode": "CN",
             "ip": "192.168.199.159",
             "model": "SM-G9730",
-            "source": "android",
+            "source": "h5",
             "lang": "zh-Hans",
             "version": "2.3.2",
             "versioncode": "2320",
